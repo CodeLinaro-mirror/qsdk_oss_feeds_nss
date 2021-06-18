@@ -23,7 +23,7 @@ define NssFirmware
     SECTION:=kernel
     CATEGORY:=$(QTI_SOFTWARE_CATEGORY)
     SUBMENU:=Network Devices
-    DEPENDS:=@TARGET_ipq_ipq60xx||TARGET_ipq_ipq60xx_64
+    DEPENDS:=@TARGET_ipq_ipq60xx||TARGET_ipq_ipq60xx_64||TARGET_ipq60xx||TARGET_ipq60xx_64
     TITLE:=NSS firmware binaries - $(1)
     PROVIDES:=$(PKG_NAME)
     MENU:=1
