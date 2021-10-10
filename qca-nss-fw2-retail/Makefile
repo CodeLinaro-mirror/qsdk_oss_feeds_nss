@@ -3,7 +3,7 @@ include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=qca-nss-fw2
 PKG_BRANCH:=master
-PKG_VERSION:=006
+PKG_VERSION:=008
 PKG_RELEASE:=1
 PKG_MD5SUM:=skip
 
