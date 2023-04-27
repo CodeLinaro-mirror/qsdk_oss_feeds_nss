@@ -21,7 +21,7 @@ define NssFirmware
 
   define Package/$(PKG_NAME)-$(1)
     SECTION:=kernel
-    CATEGORY:=$(QTI_SOFTWARE_CATEGORY)
+    CATEGORY:=QTI software
     SUBMENU:=Network Devices
     DEPENDS:=@TARGET_ipq_ipq60xx||TARGET_ipq_ipq60xx_64||TARGET_ipq60xx
     TITLE:=NSS firmware binaries - $(1)

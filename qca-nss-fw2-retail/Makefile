@@ -21,7 +21,7 @@ define NssFirmware
 
   define Package/qca-nss-fw2-$(1)
     SECTION:=kernel
-    CATEGORY:=$(QTI_SOFTWARE_CATEGORY)
+    CATEGORY:=QTI software
     SUBMENU:=Network Devices
     DEPENDS:=@TARGET_ipq806x||TARGET_ipq_ipq806x
     TITLE:=NSS firmware binaries - $(1)
